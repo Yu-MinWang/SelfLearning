@@ -12,7 +12,6 @@
   * merge sort
   * radix sort(LSD & MSD)
   * heap sort
-  * external sort
   * std::sort
   * std::stable_sort
   * cocktail shaker sort
