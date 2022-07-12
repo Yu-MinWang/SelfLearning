@@ -2,7 +2,7 @@
 #include <algorithm>
 
 void selectionSort(int a[], int n){
-    int comparison = 0, total_swaps = 0;
+    long long comparison = 0, total_swaps = 0;
 
     for(int i=0; i<n; i++){
         int array_min = INT_MAX, arrray_min_index;
