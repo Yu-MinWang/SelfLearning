@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 struct node{
     int data;
@@ -12,7 +11,7 @@ struct node{
 
     void print_list(node *n){
         for(; n!=nullptr; n = n->next)
-            cout << n->data << ' ';
+            std::cout << n->data << ' ';
     }
 
     void insert_node(node *n, int v){
