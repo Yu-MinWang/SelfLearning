@@ -1,12 +1,6 @@
 #include <iostream>
 #include <algorithm>
 
-void swap_int(int &a, int &b){
-    int c = a;
-    a = b;
-    b = c;
-}
-
 void bubbleSort(int a[], int n){
     bool sorted = false;
 
@@ -15,7 +9,7 @@ void bubbleSort(int a[], int n){
 
         for(int i=0; i<n-1; i++){
             if(a[i]>a[i+1]){
-                swap_int(a[i], a[i+1]);
+                std::swap(a[i], a[i+1]);
                 swaps++;
             }
         }
