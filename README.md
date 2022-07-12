@@ -18,6 +18,8 @@
   * gnome sort
   * bitonic sort
   * bogo sort
+  * to do
+   * how to make arrays more random(and also have some repeated elements)
 * searching and hashing
 * trees
 * graphs
